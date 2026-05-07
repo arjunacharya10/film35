@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  outputFileTracingExcludes: {
+    '/gallery': ['./public/images/**/*'],
+  },
 };
 
 export default nextConfig;
