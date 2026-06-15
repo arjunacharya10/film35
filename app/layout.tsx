@@ -18,7 +18,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Silver Halide",
+  title: "Film35",
   description: "A film photography memoir",
 };
 
@@ -36,7 +36,7 @@ export default function RootLayout({
               href="/"
               className="font-[family-name:var(--font-cormorant)] text-xl text-white"
             >
-              Silver Halide
+              Film35
             </Link>
             <NavLinks />
           </header>
